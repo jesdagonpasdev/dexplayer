@@ -1,0 +1,221 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    background-image: url('../images/rsz_fondo.jpg');
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+}
+
+.sesion {
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    color: white;
+}
+
+.libreria {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    /*height: 50%;*/
+    background: url('../images/rsz_fondo.jpg');
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.reproductor{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 74%;
+    height: 50%;
+    background: url('../images/rsz_fondo.jpg');
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top:5px;
+    height: 100%;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    background: url('../images/rsz_fondo.jpg');
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    left: 10px;
+    padding: 1rem;
+    color: white;
+}
+
+.modorepro {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 600px;
+    height: 60px;
+    background-color: 	#000080;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+}
+
+.cajetilla {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    background-color: 	#000080;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
+.cajetillaSelec {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    background-color: 	orange;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.controles {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    background-color: 	#000080;
+    -moz-box-shadow: 0 0 10px rgb(243, 14, 14);
+    -webkit-box-shadow: 0 0 10px rgb(243, 14, 14);
+    box-shadow: 0 0 30px rgb(243, 14, 14);
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.ctrlnormal {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.ctrlvolumen {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.visualizacion {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 432px;
+    width: 768px;
+    border-radius: 5px;
+    margin-top: 5px;
+    -moz-box-shadow: 0 0 10px rgb(243, 14, 14);
+    -webkit-box-shadow: 0 10 10px rgb(243, 14, 14);
+    box-shadow: 0 0 10px rgb(243, 14, 14);
+}
+
+video {
+    height: 432px;
+    width: 768px;
+    margin-top: 10px;
+    -moz-box-shadow: 0 0 10px rgb(243, 14, 14);
+    -webkit-box-shadow: 0 0 10px rgb(243, 14, 14);
+    box-shadow: 0 0 30px rgb(243, 14, 14);
+}
+
+.cajetilla > span {
+    color: orangered;
+    font-size: 25px;
+}
+
+.cajetilla > h5 {
+    color: orangered;
+    font-style: normal;
+}
+
+.cajetillaSelec > span {
+    color: white;
+    font-size: 16px;
+}
+
+.cajetillaSelec > h5 {
+    color: white;
+    font-style: normal;
+}
+
+.usuanombre{
+    font-size: 20px;
+}
+
+.modorepro {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.reproduciendo {
+    height: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#barravolumen {
+    height: 15px;
+}
