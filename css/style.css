@@ -77,6 +77,27 @@ footer{
     color: white;
 }
 
+#estado:hover {
+    color: red;
+    font-size: 35px;
+}
+.icon-previous2:hover {
+    color: yellow;
+    font-size: 30px;
+}
+.icon-next2:hover {
+    color: yellow;
+    font-size: 30px;
+}
+.icon-volume-decrease:hover {
+    color: red;
+    font-size: 30px;
+}
+.icon-volume-increase:hover {
+    color: green;
+    font-size: 30px;
+}
+
 .modorepro {
     display: flex;
     flex-flow: column wrap;
@@ -122,6 +143,23 @@ footer{
     font-size: 16px;
     font-style: normal;
 }
+.cajetilla:hover {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    background-color: 	red;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+    margin: 5px;
+    color: orange;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .controles {
     display: flex;
@@ -129,6 +167,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     width: 80%;
+    height: 40px;
     background-color: 	#000080;
     -moz-box-shadow: 0 0 10px rgb(243, 14, 14);
     -webkit-box-shadow: 0 0 10px rgb(243, 14, 14);
